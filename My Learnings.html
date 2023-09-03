@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    
+  <head>
+        
+    <title>My Learnings</title>
+    <link rel="icon" href="Logo HTML5.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="author" content="James Carba">
+    <meta name="description" content="This page contain all the things i am learning to create as i learn HTML.">
+    
+  </head>
+ 
+  <body style="color: blueviolet;">
+           <!--This form #1 is the one that you'll use in the webpage or will be put on user interface-->
+
+  <header style="background-color: rgb(13, 13, 37); color: greenyellow; text-align: center; font-size: xx-large; border: 1px solid blue; border-radius: 60px; border-width: 5px;">
+    This is my learning on my journey in studying HTML
+  </header>
+  
+  <br></br>
+
+  <p id="s1" style="font-size: x-large;"><b>Semantic Tags:</b>The core characteristic of a semantic element is that it clearly communicated its meaning to both the developer and the browser. 
+    These elements clearly define its content.</p><a href="#gb">Go down</a>
+           
+          
+
+                                                                                            
+           
+           
+                                                                                                         
+<main> 
+    
+    <p style="text-align: center; font-size: xx-large; color: #d11aff;"><b>Form ELEMENT</b></p>
+    
+                                                                                                                 <!--FORM TAGS-->
+    
+    <h1>FORM #1</h1>
+
+    <p>For the <b>USER</b></p>
+
+    <xmp>
+    <form>
+
+        <label for="t1">Email</label>
+        <input type="text" id="t1">
+        <br></br><label for="t2">Country</label>
+        <input type="text" id="t2">
+        <br></br><input type="submit" onclick="alert('okie na')" style="background-color: blueviolet;
+        color: red; border-radius: 15px;">
+        
+    </form>
+    </xmp>
+
+    <p><b>RESULT ↓</b></p>
+
+    <br></br>
+
+    <form>
+
+        <label for="t1">Email</label>
+        <input type="text" id="t1">
+        <br></br><label for="t2">Country</label>
+        <input type="text" id="t2">
+        <br></br><input type="submit" onclick="alert('okie na')" style="background-color: blueviolet;
+        color: red; border-radius: 15px;">
+        
+    </form>
+
+
+<br></br>
+            <!--This form #2 is not for website display or for user, Its for the SERVER/Host of the website/Database.-->
+
+    <h2>FORM #2</h2>
+
+    <p>For the <b>SERVER</b></p>
+
+    <xmp>
+    <form>
+
+        <input type="text" name="Email">
+        <input type="text" name="City">
+        <input type="Submit" onclick="alert('Okie na')" style="border-radius: 5px;
+        background-color: #d11aff; color: black;">
+    
+    </form>
+    </xmp>
+
+    <p><b>RESULT ↓</b></p>
+
+    <br></br>
+
+    <form>
+
+        <input type="text" name="Email">
+        <input type="text" name="City">
+        <input type="Submit" onclick="alert('Okie na')" style="border-radius: 5px;
+        background-color: #d11aff; color: black;">
+    
+    </form>
+
+
+
+
+    <!--LABEL for the user, INPUT for the computer and lastly NAME is for the database-->
+
+
+
+
+               <br></br>
+
+    <h3>Form #3</h3>
+
+    <p>Combination of <b>Form #1 and Form #2</b></p>
+
+    <xmp>
+    <form>
+
+        <label for="f1">Email</label>
+        <input type="text" id="f1" name="email">
+        <label for="f2">Country</label>
+        <input type="text" id="f2" name="country">
+        <br></br><input type="Submit" onclick="alert('Okie na')" 
+         style="border-radius:10px; color:#d11aff; background-color:black">
+
+    </form>
+    </xmp>
+
+    <p><b>RESULT ↓</b></p>
+
+    <br></br>
+    
+    <form>
+
+        <label for="f1">Email</label>
+        <input type="text" id="f1" name="email">
+        <label for="f2">Country</label>
+        <input type="text" id="f2" name="country">
+        <br></br><input type="Submit" onclick="alert('Okie na')" 
+         style="border-radius:10px; color:#d11aff; background-color:black">
+
+    </form>
+
+           <br></br>
+
+
+    <h4>Form #4</h4>
+
+    <p>This is a <b>Radio Type</b> form</p>
+
+    <xmp>
+    <form>
+
+        <p><b>Enter a Payment option</b></p>
+
+        <input type="radio" id="r1"
+         name="pay" value="cash">
+        <label for="r1">Cash</label>
+    
+        <input type="radio" id="r2"
+         name="pay" value="card">
+        <label for="r2">Card</label>
+
+    </form>
+
+    <p><b>RESULT ↓</b></p>
+
+    <br></br>
+
+    </xmp>
+    
+    <form>
+
+        <p><b>Enter a Payment option</b></p>
+
+        <input type="radio" id="r1"
+         name="pay" value="cash">
+        <label for="r1">Cash</label>
+    
+        <input type="radio" id="r2"
+         name="pay" value="card">
+        <label for="r2">Card</label>
+
+    </form>
+
+    <br></br>
+ 
+    <pre>    ATTRIBUTES
+             
+        Name = Where to put the information/Use to tell the database where to store the data
+             
+        Label = It is the text next to the input field.
+             
+        Value = Its the info for the server or It defines what kind of information is
+                     being submitted/Use to tell the database what to store.
+    </pre>          
+
+                                                                                                                  <!--DROP DOWN MENU-->
+
+    <p style="font-size: xx-large; text-align: center; color:rgb(39, 105, 9);"><b>Dropdown MENU</b></p>
+
+    <p>Its compulsary to use the <b>SELECT element</b> to create a drop down list</p>
+
+    <p>The <b>OPTION element</b> is used inside a SELECT tag to add choices for the user</p>
+
+    <xmp>
+        <select>
+
+            <option> Option 1 </option>
+            <option> Option 2 </option>
+            <option> Option 3 </option>
+
+        </select>
+    </xmp>
+
+    <p><b>RESULT ↓</b></p>
+
+    <br></br>
+
+     <select>
+
+        <option> Option 1 </option>
+        <option> Option 2 </option>
+        <option> Option 3 </option>
+
+     </select>
+
+     <br></br>
+
+    <p>You can use the <b>SELECT element</b> as a part of a <b>FORM</b> to collect user input</p>
+
+    <xmp>
+     <form>
+
+        <select>
+            
+            <option> Option 1 </option>
+            <option> Option 2 </option>
+
+        </select>
+    
+    </form>
+    </xmp>
+
+    <p>Submitting a form needs information to a database. The <b>NAME</b> attribute is needed to submit the form data</p>
+
+    <!--The NAME Attribute is used to tell the database where to store the data-->
+
+    <xmp>
+    <form>
+      
+      <select name="color">
+        
+        <option> Red </option>
+        <option> Blue </option>
+
+      </select>
+
+    </form>
+    </xmp>
+
+    <p>Data will be sent when the form is submitted. You can control the data each option sends with the <b>value</b> attribute</p>
+
+    <xmp>
+    <form>
+        <label for="dropdown">Choose an option:</label>
+            
+         <select id="dropdown">
+              
+            <option value="r">Red</option>
+            <option value="g">Green</option>
+            <option value="b">Blue</option>
+            
+        </select>
+            
+            <input type="submit">
+    </form>
+    </xmp>
+
+    <p>You can also add labels to drop down menu</p>
+
+    <xmp>
+    <form>
+          
+         <label>Vehicle Type:</label>
+
+       <select name="Vehicle">
+         <option value="car">Car</option>
+         <option value="bus">Bus</option>
+       </select>
+
+    </form>
+    </xmp>
+
+    <p>Labels and drop-down menus are connected with <b>for</b> and <b>id</b> attributes, just like any other form element</p>
+
+    <xmp>
+    <form>
+        
+        <label for="s1">Vehicle Type:</label>
+        
+        <select name="vehicle" id="s1">
+          <option value="car">Car</option>
+          <option value="bus">Bus</option>
+        </select>
+
+    </form>
+    </xmp>
+
+    <p>Correctly connecting labels and form fields will increase hit area and improve accessibility.</p>
+
+    <pre>
+
+        label = For Attribute
+        select = id Attribute
+
+    </pre>
+
+    <p>The Select element can be used in forms in combination with input elements</p>
+
+    <xmp>
+
+        <input type="text">      :    text box
+        <input type="checkbox">  :    checkbox
+        <input type="radio">     :    radio button
+        <input type="submit">    :    submit button
+
+    </xmp>
+
+    <pre style="font-size:xx-large; text-align: left; color: rgb(105, 60, 8);">
+     
+        •The select tag is used to create drop-down menu.
+        •The option tag is used to give choices to the user.
+        •You can use drop-down menus in forms, in combination with other input elements.
+
+
+    </pre>
+
+                                                                                                                             <!--VIDEO TAGS-->
+
+    <p style="text-align: center; font-size: xx-large; color: blueviolet;"><b>Video Tags</b></p>
+
+    <p>This will show you how to add videos on your webpage</p>
+
+    <p><b>Example:</b></p>
+
+    <xmp>
+     <video>
+
+       <source src="file.mp4"
+       type="video/mp4">
+
+
+     </video>
+
+
+    </xmp>
+
+    <p>The <b>TYPE</b> attribute specifies the format of the video file</p>
+
+    <br></br>
+
+    <p>Here are the other example, if you want to add multiple videos</p>
+
+    <xmp>
+        <video>
+
+            <source src="file.mp4"
+             type="video/mp4">
+            
+            <source src="file.webm"
+             type="video/webm">
+
+        </video>
+    </xmp>
+
+    <p>Btw if you include multiple options, the browser will choose the first one it supports. 
+        BUT if all of the options are supported it'll display all of the options from top to bottom.
+    </p>
+
+    <br></br>
+
+    <p>You can also add text between the video tags but the text will only display in a browser if it doesnt support the 
+        video element.
+    </p>
+    <p><b>Here's the example:</b></p>
+
+    <xmp>
+        <video>
+
+         <source src="videofile.mp4"
+          type="video/mp4">
+         
+         <source src="videofile.webm"
+          type="video/webm">
+
+         Video not supported
+
+        </video>
+    </xmp>
+
+
+    <p>You can also display play/pause, volume and other video controls with the <b>controls</b> attribute. Ofcourse its optional :) 
+       But if you dont include <b>control attribute</b> the video wont play, so the only thing that you can do is put the <b>autoplay muted</b></p>
+
+    <xmp>
+        <video controls>
+            <source src="file.mp4"
+             type="video/mp4">
+             Video not supported
+        </video>
+    </xmp>
+
+    
+    <pre style="font-size: xx-large; color: #1F031B; text-align: left;">
+        •Embeds video element     :  video
+        •File and format options  :  source
+        •File location            :  src attribute
+        •Format information       :  type attribute 
+    </pre>
+    
+
+                                                                                                               <!--AUDIO TAGS-->
+
+           <br></br>                                                                                                    
+
+    <p style="font-size: xx-large; text-align: center; color: #B15E04;">Audio Container Tag</p>
+
+    <xmp>
+        <audio>
+            <!--audio file-->
+        </audio>
+    </xmp>
+
+    <p>Just like the video, the <b>source tag</b> is used to add options for audio, <b>src attribute</b> to adds the audio file url,
+       the <b>type attribute</b> adds the format</p>
+
+    <xmp>
+        <audio>
+            <source src="file.mp3"
+             type="audio/mpeg">
+
+            <source src="file.ogg"
+             type="audio/ogg">
+        </audio>
+    </xmp>
+
+    <p>Just like video, you can add audio files in different formats. Common audio formats are: <b>MP3, OGG, and WAV</b></p>
+
+    <p>Atributes usually come in the name='value' format. Why is the <b>controls</b> attribute an exception? Because
+       <u>IT HAS A DEFAULT VALUE IF NO OTHER IS SPECIFIED</u></p>
+
+       <br>
+
+    <p>You can use <b>autoplay, muted</b> and<b> loop</b> attributes to control the behavior of the multimedia element. Just like <b>controls,</b>
+       these attributes have their default values omitted.</p>
+
+    <pre style="font-size:xx-large; text-align: left; color: rgb(95, 34, 6);">
+        •No sound                      : muted        
+        •Starts playing automatically  : autoplay    
+        •Plays in repeat               : loop
+        •Shows media controls          : controls
+    </pre>
+
+    <input type="datetime-local">
+
+
+
+    <h5 style="font-size: xx-large; color: #E81038; text-align: center;">LAYOUT OF YOUR WEBPAGE</h5>
+
+    <p style="font-size: xx-large;"><b>Header, Main, Footer</b></p>
+
+    <p>
+        •The <b>Header</b> container tag usually contains introductory information. It often contains navigation links, a menu and/or 
+       a search bar. Brand elements like logos are usually found in the header too.
+    </p>
+    <xmp>
+        <header>
+            <!--Introductory information-->
+        </header>
+    </xmp>
+
+    <p>•The <b>Main</b> container tag is used to include the main content of a web page</p>
+
+    <xmp>
+        <main>
+            <!--Main content-->
+        </main>
+    </xmp>
+
+    <p>•The <b>Footer</b> container tag is often contains contact and legal information and links.</p>
+
+    <xmp>
+        <footer>
+            <!--Footer information-->
+        </footer>
+    </xmp>
+
+    <p>Reminder: <b>Header, Main</b> and <b>Footer</b> elements are nested inside the body container tag</p>
+
+    <xmp>
+        <b0dy>
+            <header>
+                <!--Intro info-->
+            </header>
+            <main>
+                <!--Main Content-->
+            </main>
+            <footer>
+                <!--Footer info-->
+            </footer>
+        </b0dy>
+    </xmp>
+
+    <h6 style="font-size: xx-large; color: rgb(2, 59, 59); text-align: center;"><b>STRUCTURE OF WEBPAGES</b></h6>
+
+    <p><b>Article</b> represents an independent, self-contained piece of content</p>
+
+    <xmp>
+    <article>
+        <h1>5 Future-Proof jobs</h1>
+        <p>Every industry needs coders</p>
+    </article>
+    </xmp>
+
+    <p id="gb"><b>Section</b> helps to breakdown the content into parts. It is a <a href="#s1">Semantic</a> tag. It usually includes a heading.</p>
+
+<xmp>
+    <section>
+        <h2>About Us</h2>
+        <p>We are a small company...</p>
+    </section>
+</xmp>
+
+    <p><b>Aside</b> is used for secondary, aditional or somehow related content</p>
+
+    <xmp>
+        <aside>
+            <h3>Related topics</h3>
+            <p>Did you know...</p>
+        </aside>
+    </xmp>
+
+   <h3 style="text-align: center; font-size: xx-large; color: #24462E;">STYLE ATTRIBUTE</h3>
+
+   <p>With the <b>Style</b> attribute, you can full customize the visual presentation of your websites, from typography
+      and colors to layout more.</p>
+
+    <p>The <b>Style</b> attribute can be used to define <b>properties</b> like color, font size and alignment.</p>
+
+    <p>You can customize multiple properties at the same time. Just seperate each property <b>:</b> value pair with a 
+       <b>semicolon</b> (<b>;</b>)</p>
+
+    <xmp>
+        <h1 style="color: blue; text-align: center; font-size: xx-large;">Centered Blue Heading</h1>
+    </xmp>
+
+    <p>The <b>background-color</b> property is useful for styling elements like buttons</p>
+
+    
+    <xmp>
+        <button style="background-color: green;">OK</button>
+    </xmp>
+
+    
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+    
+
+    
+
+
+
+
+</main>
+
+
+    
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
